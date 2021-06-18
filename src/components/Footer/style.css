@@ -2,9 +2,20 @@
 /*baunilha: #FFF6D5*/
 /*azul: #88B6C9*/
 
-.footer {
-    position: absolute;   /* posição absoluta */
-    bottom: 0;   /* Fixa a div no fim da página */
-    width: 100%;   /* Largura estende por toda página da div */
-    height: 200px;   /* Altura da div */
-}
+/*.footer {*/
+/*    background-color: white;*/
+/*    color: #5B5B5B;*/
+/*    position: absolute;*/
+/*    bottom:0;*/
+/*    width:100%;*/
+/*    margin: auto auto;*/
+/*    padding: 10px 5px;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*}*/
+
+/*.img-footer{*/
+/*    width: 50px;*/
+/*    padding-left: 30px;*/
+/*    padding-bottom: 5px;*/
+/*}*/
