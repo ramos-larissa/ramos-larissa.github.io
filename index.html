@@ -2,131 +2,293 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- UNICONS -->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-    <!-- SWIPER CSS -->
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
     <title>Larissa Ramos</title>
 </head>
 <body>
-<!-- HEADER -->
-<header class="header" id="header">
-    <nav class="nav container">
-        <a href="#" class="nav__menu">Larissa</a>
-
-        <div class="nav__menu" id="nav-menu">
-            <ul class="nav__list grid">
-                <li class="nav__item">
-                    <a href="#home" class="nav__link">
-                        <i class="uil uil-estate nav__icon"></i>Home
-                    </a>
-                </li>
-                <li class="nav__item">
-                    <a href="#" class="nav__link">
-                        <i class="uil uil-user nav__icon"></i>About
-                    </a>
-                </li>
-                <li class="nav__item">
-                    <a href="#skills" class="nav__link">
-                        <i class="uil uil-file-check-alt nav__icon"></i>Skills
-                    </a>
-                </li>
-                <li class="nav__item">
-                    <a href="#services" class="nav__link">
-                        <i class="uil uil-briefcase-alt nav__icon"></i>Services
-                    </a>
-                </li>
-                <li class="nav__item">
-                    <a href="#portfolio" class="nav__link">
-                        <i class="uil uil-scenery nav__icon"></i> Portfolio
-                    </a>
-                </li>
-                <li class="nav__item">
-                    <a href="#contact" class="nav__link">
-                        <i class="uil uil-message nav__icon"></i> Contact
-                    </a>
-                </li>
-            </ul>
-            <i class="uil uil-times nav__close" id="nav-close"></i>
+<!--===== HEADER =====-->
+<header class="l-header">
+    <nav class="nav bd-grid">
+        <div>
+            <a href="#" class="nav__logo">Larissa</a>
         </div>
 
-        <div class="nav__btns">
-            <div class="nav__toggle" id="nav-toggle">
-                <i class="uil uil-apps"></i>
-            </div>
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+            <i class='bx bx-menu'></i>
         </div>
     </nav>
 </header>
 
+<main class="l-main">
+    <!--===== HOME =====-->
+    <section class="home bd-grid" id="home">
+        <div class="home__data">
+            <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Larissa</span><br>Software Developer
+            </h1>
 
-<!-- MAIN -->
-<main class="main">
-    <!-- HOME -->
-    <section class="home section" id="home">
-        <div class="home__container container grid">
-            <div class="home__content grid">
-                <div class="home__social">
-                    <a href="https://www.linkedin.com/in/lsramos95/" target="_blank" class="home__social-icon">
-                        <i class="uil uil-linkedin-alt"></i>
-                    </a>
+            <a href="#contact" class="button">Contact</a>
+        </div>
 
-                    <a href="https://github.com/devlarissa" target="_blank" class="home__social-icon">
-                        <i class="uil uil-github-alt"></i>
-                    </a>
+        <div class="home__social">
+            <a href="https://www.linkedin.com/in/lsramos95/" class="home__social-icon"><i
+                    class='bx bxl-linkedin'></i></a>
+            <a href="https://gitlab.com/devlarissasr" class="home__social-icon"><i class='bx bxl-gitlab'></i></a>
+            <a href="https://github.com/devlarissa" class="home__social-icon"><i class='bx bxl-github'></i></a>
+        </div>
 
-                    <a href="https://gitlab.com/devlarissasr" target="_blank" class="home__social-icon">
-                        <i class="uil uil-gitlab"></i>
-                    </a>
+        <div class="home__img">
+            <img src="assets/img/perfil.png" alt="">
+        </div>
+    </section>
+
+    <!--===== ABOUT =====-->
+    <section class="about section " id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about__container bd-grid">
+            <div class="about__img">
+                <img src="assets/img/about.jpg" alt="">
+            </div>
+
+            <div>
+                <h2 class="about__subtitle">I'am Larissa</h2>
+                <p class="about__text">
+                    I'm 25 years old, I like playing video games with my friends, reading books, listening to music, and
+                    I love animals.
+                    I'm a beginner frontend and backend developer.<br/>
+                    I'm undergraduate in systems analysis and development and I intend to specialize in web and mobile
+                    development.<br/>
+                    <strong>I'm looking for opportunities to learn and grow as well as knowing new cultures and
+                        places.</strong>
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!--===== SKILLS =====-->
+    <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills__container bd-grid">
+            <div>
+                <h2 class="skills__subtitle">Profesional Skills for Frontend</h2>
+                <p class="skills__text">
+                    Nowadays I'm focused in javascript language and its frameworks for frontend development.
+                    In some projects I was involved in, I was able to learn some of the skills below:
+                </p>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxl-html5 skills__icon'></i>
+                        <span class="skills__name">HTML5</span>
+                    </div>
+                    <div class="skills__bar skills__html">
+
+                    </div>
+                    <div>
+                        <span class="skills__percentage">30%</span>
+                    </div>
                 </div>
-                <div class="home__img">
-                    <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <mask id="mask0" mask-type="alpha">
-                            <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547
-                                     130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775
-                                     97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666
-                                     0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                        </mask>
-                        <g mask="url(#mask0)">
-                            <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346
-                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403
-                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028
-                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                            <image class="home__blob-img" x='12' y='18' xlink:href="img/clag.png"/>
-                        </g>
-                    </svg>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxl-css3 skills__icon'></i>
+                        <span class="skills__name">CSS3</span>
+                    </div>
+                    <div class="skills__bar skills__css">
+
+                    </div>
+                    <div>
+                        <span class="skills__percentage">30%</span>
+                    </div>
                 </div>
-                <div class="home__data">
-                    <h1 class="home__title">Hi, I'm Larissa</h1>
-                    <h3 class="home__subtitle">Frontend developer and Backend developer</h3>
-                    <p class="home__description">
-                        Beginner level experience in web design, api restful, development knowledge and project management.
-                    </p>
-                    <a href="#contact" class="button button--flex">
-                        Contact Me <i class="uil uil-message"></i>
-                    </a>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxl-javascript skills__icon'></i>
+                        <span class="skills__name">JAVASCRIPT</span>
+                    </div>
+                    <div class="skills__bar skills__js">
+
+                    </div>
+                    <div>
+                        <span class="skills__percentage">20%</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxl-react skills__icon'></i>
+                        <span class="skills__name">REACT JS</span>
+                    </div>
+                    <div class="skills__bar skills__reactjs">
+
+                    </div>
+                    <div>
+                        <span class="skills__percentage">10%</span>
+                    </div>
                 </div>
             </div>
 
-            <div class="home__scroll">
-                <a href="#about" class="home__scroll-button button--flex">
-                    <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-                    <span class="home__scroll-name">Scroll down</span>
-                    <i class="uil uil-arrow-down home__scroll-arrow"></i>
-                </a>
-            </div>
+            <div>
+                <h2 class="skills__subtitle">Profesional Skills for Backend</h2>
+                <p class="skills__text">
+                    Nowadays I'm focused in javascript and php language and its frameworks for backend development.
+                    In some projects I was involved in, I was able to learn some of the skills below:
+                </p>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxl-nodejs skills__icon'></i>
+                        <span class="skills__name">NODE JS</span>
+                    </div>
+                    <div class="skills__bar skills__nodejs">
 
+                    </div>
+                    <div>
+                        <span class="skills__percentage">10%</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bx-code-block skills__icon'></i>
+                        <span class="skills__name">PHP</span>
+                    </div>
+                    <div class="skills__bar skills__php">
+
+                    </div>
+                    <div>
+                        <span class="skills__percentage">20%</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bx-code-block skills__icon'></i>
+                        <span class="skills__name">Laravel</span>
+                    </div>
+                    <div class="skills__bar skills__laravel">
+
+                    </div>
+                    <div>
+                        <span class="skills__percentage">20%</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxs-data skills__icon'></i>
+                        <span class="skills__name">SQL</span>
+                    </div>
+                    <div class="skills__bar skills__sql">
+
+                    </div>
+                    <div>
+                        <span class="skills__percentage">20%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p style="text-align: center">
+            <strong>Additional Skills:</strong><br>
+            - Intermediary English for reading and writing<br>
+            - Team working
+        </p>
+    </section>
+
+    <!--===== WORK =====-->
+    <section class="work section" id="work">
+        <h2 class="section-title">Work</h2>
+
+        <div class="work__container bd-grid">
+            <div class="work__img">
+                <img src="assets/img/work1.jpg" alt="">
+                <p style="text-align: center; margin: 4px">
+                   <strong> Hackathons participation:</strong> <br>
+                    CPMG 2018 BNDES <br> 3rd place<br>
+                    CPBR 2019 Jandaia <br> 1st place<br>
+                    CPBS 2019 Tempos de mudanças <br> 2nd place<br>
+                    CPBS 2019 Aprender Bem <br> 2nd place<br>
+                    CPBS 2019 Zé Gotinha <br> 1st place<br>
+                </p>
+            </div>
+            <div class="work__img">
+                <img src="assets/img/work2.jpg" alt="">
+                <p style="text-align: center; margin: 4px">
+                    <strong>Âmago company - 2021</strong><br>
+                    Nowadays I'm working as a freelancer for Âmago company.<br>
+                    In my daily routines I use javascript and php language, git for
+                    versioning control, clickup for teams management and discord for communication.
+                </p>
+            </div>
+            <div class="work__img">
+                <img src="assets/img/work3.jpg" alt="">
+                <p style="text-align: center; margin: 4px">
+                    <strong>Unyleya Educacional - 2020</strong><br>
+                    While working for Unyleya Educacional<br> I was FullStack Jr programmer
+                    and used to work with javascript and php language programming for hotfix and features
+                    of the college systems.
+                </p>
+            </div>
+            <div class="work__img">
+                <img src="assets/img/work4.jpg" alt="">
+                <p style="text-align: center; margin: 4px">
+                    <strong>Null Stack - 2019</strong><br>
+                    While working for Null Stack startup <br>I was project manager, responsible for
+                    splitting planning, managing schedules, evolution control and dealing with clients.
+                </p>
+            </div>
+            <div class="work__img">
+                <img src="assets/img/work5.jpg" alt="">
+                <p style="text-align: center; margin: 4px">
+                    <strong>MinasCoders - 2018</strong><br>
+                    I was part of project in Universidade Federal de Viçosa called MinasCoders,
+                    where the goal was training for programming marathons.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!--===== CONTACT =====-->
+    <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact__container bd-grid">
+            <strong style="text-align: center; margin: 4px">
+                <p>
+                    Thank you for visiting me.
+                </p>
+                <p>
+                    For further details, please contact me at
+                </p>
+            </strong>
+            <p>lsramos.cdc@gmail.com</p>
+            <div>
+                <a href="lsramos.cdc@gmail.com"> <i class='bx bx-mail-send skills__icon' alt="lsramos.cdc@gmail.com"></i></a>
+                <a href="https://www.linkedin.com/in/lsramos95/"><i class='bx bxl-linkedin skills__icon'></i></a>
+            </div>
         </div>
     </section>
 </main>
-<!-- FOOTER -->
-<!-- SCROLL TOP -->
-<!-- SWIPER JS -->
-<!-- MAIN JS -->
 
+<!--===== FOOTER =====-->
+<footer class="footer"></footer>
+
+
+<!--===== SCROLL REVEAL =====-->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!--===== MAIN JS =====-->
+<script src="assets/js/main.js"></script>
 </body>
 </html>
